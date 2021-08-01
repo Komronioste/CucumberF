@@ -23,9 +23,18 @@ public class FruitDemo {
 			Coconut coco = (Coconut) f;
 			coco.crack();
 		}
-		
+
 		// Task 1
 		// Create an Orange class that extends Fruit and implements Peelable
+		// And create an object in FruitDemo
+
+		Orange o = new Orange("Orange");
+		o.peel();
+
+		Peelable p1 = new Apple("Green");
+		Peelable p2 = new Orange("Orange");
+		// I can only call peel() method
+		p1.peel();
 	}
 
 }
