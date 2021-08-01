@@ -1,5 +1,7 @@
 package com.neotech.review08.Abstraction;
 
+// abstract - abstrakte - soyut - referat - abstracto -
+// veqeti - mavhum - abstraktnyy - Khalasah
 public abstract class Human {
 	String name;
 	static final String planet = "World";
